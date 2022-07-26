@@ -1,5 +1,5 @@
-#Dependecies
+#READ ME
 
-npm i express
+npm init
 
-npm run start-server for starting api
+npm run api
