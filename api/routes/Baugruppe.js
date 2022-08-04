@@ -5,8 +5,8 @@ const Baugruppe = require('../models/Baugruppe');
 //Routes
 router.get('/', async (req, res) => {
     try {
-        const getBaulement = await Baugruppe.find();
-        res.json(getBaulement);
+        const getBaugruppe = await Baugruppe.find();
+        res.json(getBaugruppe);
     } catch (err) {
         res.json({message: err});
     }
@@ -31,8 +31,8 @@ router.post('/', async (req, res) => {
 
 router.delete('/:id', async (req, res) => {
     try {
-        const delBaulement = await Baugruppe.deleteOne({_id: req.params.id});
-        res.json(delBaulement);
+        const delBaugruppe = await Baugruppe.deleteOne({_id: req.params.id});
+        res.json(delBaugruppe);
     } catch (err) {
         res.json({message: err});
     }
