@@ -10,9 +10,7 @@ router.get('/', async (req, res) => {
     } catch (err) {
         res.json({ message: err });
     }
-}
-    res.send(`Maschine`)
-);
+});
 
 router.post('/', async (req, res) => {
     const newMaschine = new Maschine({
