@@ -31,8 +31,8 @@ router.post('/', async (req, res) => {
 
 router.delete('/:id', async (req, res) => {
     try {
-        const delBaulement = await Bauelement.deleteOne({_id: req.params.id});
-        res.json(delBaulement);
+        const delBauelement = await Bauelement.deleteOne({_id: req.params.id});
+        res.json(delBauelement);
     } catch (err) {
         res.json({message: err});
     }
