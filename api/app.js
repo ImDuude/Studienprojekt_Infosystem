@@ -16,10 +16,12 @@ app.use(
 const BauelementRoute = require('./routes/Bauelement');
 const BaugruppeRoute = require('./routes/Baugruppe');
 const MaschineRoute = require('./routes/Maschine');
+const BaugruppeHilfstabelleRoute = require('./routes/BaugruppeHilfstabelle');
 
 app.use('/Bauelement', BauelementRoute);
 app.use('/Baugruppe', BaugruppeRoute);
 app.use('/Maschine', MaschineRoute);
+app.use('/BaugruppeHilfstabelle', BaugruppeHilfstabelleRoute);
 
 
 app.get('/', (req, res) =>
