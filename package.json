@@ -16,5 +16,13 @@
   },
   "devDependencies": {
     "nodemon": "^1.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImDuude/Studienprojekt_Infosystem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ImDuude/Studienprojekt_Infosystem/issues"
+  },
+  "homepage": "https://github.com/ImDuude/Studienprojekt_Infosystem#readme"
 }
