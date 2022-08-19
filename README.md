@@ -1,5 +1,5 @@
 #READ ME
 
-npm init
+npm install
 
 npm run api
